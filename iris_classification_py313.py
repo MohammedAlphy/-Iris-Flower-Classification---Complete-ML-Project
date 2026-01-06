@@ -142,7 +142,7 @@ plt.savefig('feature_importance.png', dpi=100, bbox_inches='tight')
 plt.show()
 
 # --------------------------------------------------------------------
-# STEP 7: MAKE PREDICTIONS (CORRECTED VERSION)
+# STEP 7: MAKE PREDICTIONS 
 # --------------------------------------------------------------------
 print("\n🔮 STEP 7: Making Predictions with the Model...")
 
@@ -178,7 +178,7 @@ def predict_new_flower(sepal_length, sepal_width, petal_length, petal_width, des
     print("-" * 50)
     return predicted_species, confidence
 
-# Test with BETTER example flowers
+# Test with example flowers
 print("\n" + "="*60)
 print("🧪 TESTING WITH BETTER EXAMPLE FLOWERS")
 print("="*60)
@@ -257,4 +257,5 @@ print("3. Trained a Random Forest classifier")
 print("4. Evaluated model performance")
 print("5. Made predictions with confidence scores")
 print("6. Saved/Loaded model for future use")
+
 print("="*50)
