@@ -35,7 +35,7 @@ When users ask my [AI Programming Assistant chatbot](link-to-your-chatbot) about
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/iris-classification.git
+git clone https://github.com/MohammedAlphy/-Iris-Flower-Classification---Complete-ML-Project.git
 cd iris-classification
 
 # Create virtual environment (recommended)
